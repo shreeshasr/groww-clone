@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.brandImage img{
+    width: 10rem;
+    height: 5rem;
+}
+
+.searchBox {
+    width: 30rem;
+    height: 1.6rem;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    border: 0.0625rem solid #44475B;
+    color: #767676;
+}
+
+.searchInput{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0 0 0 2rem;
+    box-sizing: border-box;
+}
+
+.searchBox span .material-icons{
+    position: relative;
+    top: -90%;
+}
+
+.placeholderText{
+    position: relative;
+    top: -120%;
+    padding-left: 1rem;
+    visibility: visible;
+    word-spacing: 0.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.loginOrRegister button{
+    background: #00d09b;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    width: 10rem;
+    height: 3rem;
+}
+
+.loginOrRegister button:hover{
+    cursor: pointer
+}
