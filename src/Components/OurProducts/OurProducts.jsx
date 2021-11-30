@@ -23,10 +23,8 @@ function OurProducts() {
 
     const setWhichDetails = (e, index) => {
         e.preventDefault();
-        console.log("You clicekd me!" + index)
         features.filter((feature) => {
-            feature.name.includes(selectedChoice)
-            console.log("Hi " + selectedChoice)
+            return feature.name.includes(selectedChoice)
         })
         setSelectedChoice(features[index])
     }

@@ -1,0 +1,43 @@
+.reviewCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 22rem;
+    background: #ffffff;
+    margin: 2rem;
+    padding:2rem;
+    border-radius: 0.5rem;
+    font-weight: 400;
+    color: #44475b;
+}
+.reviewCard:hover{
+    transform: scale(1.001);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.imageAndCard{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+}
+.review-image img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.reviewText{
+    max-width: 20rem;
+    line-height: 2rem;
+    word-spacing: 0.1rem;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.stars{
+   padding-left: 1rem; 
+}
+.reviewerCompany span{
+    display: block;
+    line-height: 2rem;
+}

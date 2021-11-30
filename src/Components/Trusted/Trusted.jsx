@@ -1,5 +1,4 @@
 import React from 'react'
-import shield from '../../images/shield.png'
 import './Trusted.css'
 function Trusted() {
     return (

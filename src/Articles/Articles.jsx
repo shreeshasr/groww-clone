@@ -31,7 +31,7 @@ function Articles() {
                 }
             </div>
             <div className="viewEverything">
-                <a className="viewAll" href="#">View all articles →</a>
+                <a className="viewAll" href="groww.in">View all articles →</a>
             </div>
             
         </div>
