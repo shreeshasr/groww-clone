@@ -32,7 +32,7 @@ function InThePress() {
         <div className="newsSites">
             {
                 newsSites.map( (site) => {
-                    return <NewsSites image={site.image}/>
+                    return <NewsSites image={site.image} key={site.image}/>
                 })
             }
         </div>

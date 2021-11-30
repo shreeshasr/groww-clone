@@ -26,7 +26,7 @@ function Articles() {
             <div className="blogs">
                 {
                     blogs.map( (blog) => {
-                        return <Blog image={blog.image} title={blog.title}/>
+                        return <Blog image={blog.image} title={blog.title} key={blog.title}/>
                     })
                 }
             </div>

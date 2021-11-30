@@ -44,7 +44,7 @@ function Review() {
             <div className="all-reviews">
                 {
                     comments.map( (it) => {
-                        return <ReviewCard image={it.image} stars={it.stars} reviewText={it.reviewText} reviewer={it.reviewer} company={it.company}/>
+                        return <ReviewCard image={it.image} stars={it.stars} reviewText={it.reviewText} reviewer={it.reviewer} company={it.company} key={it.reviewer}/>
                     })
                 }
             </div>

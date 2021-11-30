@@ -36,7 +36,7 @@ function Introduction() {
             <div className="rightIntro">
                 {
                    features.map( (feature) => {
-                      return <Feature name={feature.name} url={feature.url}/>
+                      return <Feature name={feature.name} url={feature.url} key={feature.name}/>
                    }) 
                 }
             </div>
