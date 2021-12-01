@@ -3,8 +3,10 @@ import Articles from './Articles/Articles';
 import Introduction from './Components/Introduction/Introduction';
 import Navbar from './Components/Navbar/Navbar';
 import OurProducts from './Components/OurProducts/OurProducts';
+import Support from './Components/Support/Support';
 import Trusted from './Components/Trusted/Trusted';
 import InThePress from './InThePress/InThePress';
+import InvestAnywhere from './InvestAnywhere/InvestAnywhere';
 import Review from './Review/Review';
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Articles/>
         <InThePress/>
         <Review/>
+        <InvestAnywhere/>
+        <Support/>
     </div>
   );
 }

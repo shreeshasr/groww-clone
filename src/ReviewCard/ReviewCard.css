@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 22rem;
+    width: 20rem;
+    height: 23rem;
     background: #ffffff;
-    margin: 2rem;
+    margin: 2rem 1rem 2rem 1rem;
     padding:2rem;
     border-radius: 0.5rem;
     font-weight: 400;
@@ -22,8 +23,8 @@
     padding-bottom: 1rem;
 }
 .review-image img{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
 }
 .reviewText{

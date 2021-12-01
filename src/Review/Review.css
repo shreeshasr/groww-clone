@@ -1,5 +1,5 @@
 .reviews{
-    padding-top: 3rem;
+    padding-top: 5rem;
     background: #f6f6f7;
     color: #44475a;
 }
@@ -20,13 +20,13 @@
 .reviewLeftHeader{
     width: 50%;
     text-align: left;
-    padding-left: 5rem;
+    padding-left: 6rem;
     line-height: 3rem;;
 }
 .reviewRightHeader{
     text-align: right;
     width: 50%;
-    padding-right: 5rem;
+    padding-right: 9rem;
 }
 .all-reviews{
     display: flex;
