@@ -1,0 +1,10 @@
+.columnContents span{
+    display: block;
+    cursor: pointer;
+}
+.footerColumns{
+    padding: 0 4rem 0 2rem;
+}
+.footerColumns .footerHeading{
+    padding-bottom: 1.5rem;
+}

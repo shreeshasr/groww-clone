@@ -1,0 +1,61 @@
+.topFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8rem;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+.footer{
+    background: #1e2232;
+    color: white;
+    height: 40rem;
+    margin-top: 5rem;
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+}
+.address span{
+    display: block;
+}
+
+.contactUs img{
+    width: 10rem;
+    padding-bottom: 1.5rem;
+}
+.socialMedia img{
+    width: 2rem;
+    padding: 0.2rem;
+}
+.columns{
+    display: flex;
+}
+.socialMedia{
+    padding: 2rem 0;
+    
+}
+.horizontalRow{
+    display: block;
+    border-bottom: 0.06rem solid #fff;
+    width: 70%;
+    margin: auto;
+}
+
+.heart{
+    color: red;
+    font-size: 2rem;
+}
+
+.bottomFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyRight{
+    padding-right: 12rem;
+}
+.footerBottomImages img{
+    padding: 1.5rem;
+}

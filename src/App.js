@@ -1,5 +1,6 @@
 import './App.css';
 import Articles from './Articles/Articles';
+import Footer from './Components/Footer/Footer';
 import Introduction from './Components/Introduction/Introduction';
 import Navbar from './Components/Navbar/Navbar';
 import OurProducts from './Components/OurProducts/OurProducts';
@@ -21,6 +22,7 @@ function App() {
         <Review/>
         <InvestAnywhere/>
         <Support/>
+        <Footer/>
     </div>
   );
 }
