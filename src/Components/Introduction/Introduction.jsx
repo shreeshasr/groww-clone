@@ -25,7 +25,7 @@ function Introduction() {
                     <span>
                         <TextLoop>
                             <span style={{color:"#5367FF"}}>Stocks</span>
-                            <span style={{color:"#5367FF"}}>FDS</span>
+                            <span style={{color:"#5367FF"}}>FDs</span>
                             <span style={{color:"#EB5B3C"}}>US Stocks</span>
                             <span style={{color:"#00D09C"}}>Mutual Funds</span>
                             <span style={{color:"#FFB61B"}}>Future & Options</span>
