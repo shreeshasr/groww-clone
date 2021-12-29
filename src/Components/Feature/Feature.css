@@ -13,3 +13,16 @@
 .feature:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    .feature{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 8rem;
+        height: 5rem;
+        
+    }
+}

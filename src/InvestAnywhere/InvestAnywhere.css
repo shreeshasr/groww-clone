@@ -32,3 +32,16 @@
     justify-content: center;
     max-height: 70rem;
 }
+
+@media screen and (max-width: 600px) {
+    .platfromCards{
+        max-height: 100%;
+    }
+    .investAnywhere{
+       flex-direction: column;
+    }
+    .leftInvestAnywhere{
+        width: 100%;
+        margin-left: 0rem;
+    }
+}

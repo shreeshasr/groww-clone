@@ -57,3 +57,23 @@ input::placeholder{
 .loginOrRegister button:hover{
     cursor: pointer
 }
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .searchBox {
+        width: 20rem;
+    }
+
+    .loginOrRegister button{
+        visibility: hidden;
+        margin: 0;
+        width: 0;
+        height: 0;
+        padding: 0;
+    }
+}

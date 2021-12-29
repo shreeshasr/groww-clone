@@ -20,3 +20,18 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+    .inthepress{
+        flex-direction: column;
+    }
+    .leftLine{
+        width: 22rem;
+        display: inline-block
+    }
+    .rightLine{
+        border-top: 0.06rem solid #44475a;
+        width: 22rem;
+        display: inline-block
+    }
+}

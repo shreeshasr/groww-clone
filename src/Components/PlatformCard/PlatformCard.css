@@ -16,3 +16,11 @@
     from {transform: scale(1)}
     to {transform: scale(1.1)}
   }
+
+  
+@media screen and (max-width: 600px) {
+    .platformCard img{
+        width: 13rem;
+        height: 16rem;
+    }
+}

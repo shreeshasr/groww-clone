@@ -3,7 +3,7 @@ import './FooterColumns.css'
 function FooterColumns(props) {
     const printContent = () => {
         let data = []
-        console.log("props.contents.length = " + props.contents.length)
+        
         for(let i=0;i<props.contents.length; i++){
             data.push(<span>{props.contents[i]}</span>)
         }

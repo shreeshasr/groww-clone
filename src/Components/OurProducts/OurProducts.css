@@ -29,3 +29,11 @@
     cursor: pointer;
     outline: none;
 }
+
+@media screen and (max-width: 600px) {
+    .choices{
+        margin: 2rem 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
