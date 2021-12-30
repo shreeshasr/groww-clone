@@ -9,7 +9,7 @@ function Navbar() {
                 <a href="https://groww.in"><img src={image} alt="groww"></img></a>
             </div>
             <div className="searchBox">
-                    <span className="material-icons">search</span>
+                    <span className="material-icons"><i class="fa fa-search"></i></span>
                     <input type="text" className="searchInput" placeholder="What are you looking for today?"></input>        
             </div>
             <div className="loginOrRegister">

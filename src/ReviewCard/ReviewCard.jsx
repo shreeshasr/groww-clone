@@ -6,7 +6,7 @@ function ReviewCard(props) {
     const printStars = () => {
         let content = [] ;
         for(let i=0; i<parseInt(props.stars);i++){
-            content.push(<i className="material-icons" style={{color: "gold"}} key={Math.random()}>star</i>)
+            content.push(<i className="fa fa-star material-icons" style={{color: "gold"}} key={Math.random()}></i>)
         }
         return content
     }
